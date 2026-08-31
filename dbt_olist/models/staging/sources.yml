@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw Olist data loaded from CSV files
+    schema: raw
+    tables:
+      - name: orders
+        description: One row per order placed on the marketplace
+      - name: order_items
+        description: One row per product within an order
+      - name: customers
+      - name: products
+      - name: sellers
+      - name: order_payments
+      - name: order_reviews
+      - name: product_category_translation

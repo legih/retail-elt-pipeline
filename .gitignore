@@ -3,3 +3,6 @@ data/
 __pycache__/
 *.pyc
 venv/
+logs/
+target/
+dbt_packages/
