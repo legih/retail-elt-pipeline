@@ -19,7 +19,7 @@ joined as (
         order_items.seller_id,
         orders.customer_id,
         orders.order_status,
-        orders.purchased_at,
+        orders.purchased_at::date as purchased_at,
         orders.delivered_at,
         orders.estimated_delivery_at,
         order_items.price,
